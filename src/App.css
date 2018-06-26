@@ -1,0 +1,74 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #000;
+}
+.slider {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.slider .teamNameH {
+  width: 43%;
+  float: left;
+}
+.slider .teamNameA {
+  width: 43%;
+  float: right;
+}
+.slider .vs {
+  float: left;
+  width: 14%;
+  text-align: center;
+  line-height: 100px;
+}
+
+p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: #555;
+  font-size: 12;
+  line-height: 50px;
+}
+
+.star {
+  margin-left: 4px;
+  font-size: 14px;
+  color: #ff0000;
+}
